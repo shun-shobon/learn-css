@@ -11,6 +11,8 @@ const Head: React.FC<HeadProps> = ({ title }) => {
   return (
     <Helmet htmlAttributes={{ lang: "ja" }}>
       <meta charSet={"utf-8"} />
+      <meta name={"viewport"} content={"width=device-width,initial-scale=1"} />
+
       <title>{fullTitle}</title>
     </Helmet>
   );
