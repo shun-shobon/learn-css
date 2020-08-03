@@ -14,6 +14,7 @@ const Head: React.FC<HeadProps> = ({ title }) => {
       <meta name={"viewport"} content={"width=device-width,initial-scale=1"} />
 
       <title>{fullTitle}</title>
+      <meta name={"description"} content={"CSS練習サイトです。作成した作品を載せていきます。"} />
     </Helmet>
   );
 };
